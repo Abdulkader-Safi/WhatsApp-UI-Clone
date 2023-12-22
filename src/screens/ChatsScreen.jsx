@@ -5,7 +5,7 @@ import ChatListItem from "../components/ChatListItem";
 import chats from "./../../assets/data/chats.json";
 
 const ChatsScreen = () => {
-  return <FlatList style={{}} data={chats} renderItem={({ item }) => <ChatListItem chat={item} />} />;
+  return <FlatList data={chats} renderItem={({ item }) => <ChatListItem chat={item} />} />;
 };
 
 export default ChatsScreen;
